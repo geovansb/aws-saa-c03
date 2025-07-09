@@ -146,3 +146,53 @@ Key practices:
 
 ## Topic 4
 
+Here’s your **quick revision summary** for **Topic 4: High Availability, Fault Tolerance, RTO & RPO**, based on the transcript you shared:
+
+### 📋 Quick Revision: High Availability vs. Fault Tolerance
+
+#### 🏗️ **High Availability (HA)**
+
+* Goal: Keep systems **operational most of the time**, minimizing **downtime & interruptions**.
+* Typically achieves \~99.99% uptime.
+* Uses **redundancy & failover** mechanisms, often across **multiple AZs**.
+* Example:
+  * Web app with **load balancer + auto-scaling** across AZs.
+  * Short outages may still occur, but recovery is fast.
+
+#### 🔒 **Fault Tolerance (FT)**
+
+* Goal: Systems continue to operate **without interruption**, even if components fail.
+* Aim is **100% uptime** — seamless failover with no visible impact.
+* Typically involves **multi-region** deployments for geographic isolation.
+* Example:
+  * **Amazon Aurora Global Database** with synchronous multi-region replication.
+
+### 📝 Key Differences:
+
+| Feature            | High Availability            | Fault Tolerance               |
+| ------------------ | ---------------------------- | ----------------------------- |
+| **Downtime?**      | Minimal, brief interruptions | None, seamless operation      |
+| **Design focus?**  | Redundancy & quick recovery  | Automatic, invisible failover |
+| **Typical Scope?** | Multi-AZ                     | Multi-Region                  |
+
+### 🔍 RTO & RPO: Disaster Recovery Metrics
+
+#### ⏱️ **RTO (Recovery Time Objective)**
+
+* Maximum acceptable **time to restore** service after an outage.
+* Example: *We must recover within 5 minutes.*
+
+#### 🕒 **RPO (Recovery Point Objective)**
+
+* Maximum acceptable **data loss**, measured as the age of data that can be lost.
+* Example: *We can afford to lose up to 10 hours of data.*
+
+### 🔍 Exam Tips:
+
+- ✅ Know the difference between HA & FT (especially AZ vs Region).
+- ✅ Be ready to match examples with each.
+- ✅ Understand RTO (how fast to recover) & RPO (how much data loss is acceptable).
+- ✅ Be able to design for different business requirements based on these metrics.
+
+## Topic 5
+
