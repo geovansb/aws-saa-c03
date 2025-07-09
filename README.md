@@ -76,4 +76,73 @@ AWS takes care of the infrastructure and services **underneath your workloads**:
 
 ## Topic 3
 
+### 📋 Quick Revision: AWS Well-Architected Framework
+
+The **Well-Architected Framework** provides **6 pillars** of best practices to design reliable, secure, efficient, and cost-effective cloud architectures.
+
+You **must know these 6 pillars for the exam**, and understand examples of each.
+
+### 🏗️ The 6 Pillars
+
+#### 1️⃣ **Operational Excellence**
+
+* Run and monitor systems effectively, continuously improve.
+* Key practices:
+  🔹 Operations as code
+  🔹 Small, frequent changes
+  🔹 Use managed services
+  🔹 Collect metrics & gain insights
+
+#### 2️⃣ **Security**
+
+* Protect **data, systems, and assets** while delivering business value.
+* Key practices:
+  🔹 Encryption (at rest & in transit)
+  🔹 Authentication & authorization controls
+  🔹 Apply **layered security** (defense in depth)
+  🔹 Maintain traceability (logging & monitoring)
+
+#### 3️⃣ **Cost Optimization**
+
+* Avoid unnecessary costs while meeting business needs.
+* Key practices:
+  🔹 Adopt a **consumption model** (pay for what you use)
+  🔹 Use managed services where appropriate
+  🔹 Measure and optimize efficiency
+  🔹 Use discounts (e.g., Reserved Instances, Savings Plans)
+
+#### 4️⃣ **Reliability**
+
+* Ensure workloads perform as intended and recover quickly from failures.
+* Key practices:
+  🔹 Automate recovery (e.g., Auto Scaling, DNS failover)
+  🔹 Test recovery procedures
+  🔹 Design for horizontal scaling
+  🔹 Monitor and handle changes in demand
+
+#### 5️⃣ **Performance Efficiency**
+
+* Use IT resources efficiently to meet system requirements.
+* Key practices:
+  🔹 Choose appropriate resources & instance types
+  🔹 Experiment & innovate often
+  🔹 Use serverless & global deployments
+  🔹 Eliminate bottlenecks through testing and optimization
+
+#### 6️⃣ **Sustainability**
+
+* Minimize environmental impact of cloud workloads.
+* Key practices:
+  🔹 Right-size resources
+  🔹 Increase utilization & avoid over-provisioning
+  🔹 Scale on-demand instead of pre-allocating resources
+  🔹 Use managed services to reduce footprint
+
+### 🔍 Exam Tips:
+
+- ✅ Memorize the **6 pillars & examples of each**.
+- ✅ Many scenario-based questions test your ability to pick the best design aligned with one or more pillars.
+- ✅ Remember: **Use managed services & automation whenever appropriate to achieve these goals.**
+
+## Topic 4
 
