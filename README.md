@@ -146,8 +146,6 @@ Key practices:
 
 ## Topic 4
 
-Here’s your **quick revision summary** for **Topic 4: High Availability, Fault Tolerance, RTO & RPO**, based on the transcript you shared:
-
 ### 📋 Quick Revision: High Availability vs. Fault Tolerance
 
 #### 🏗️ **High Availability (HA)**
