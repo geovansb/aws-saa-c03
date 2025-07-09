@@ -33,10 +33,10 @@ AWS Solutions Architect Associate Certification Study
 
 ### 🔍 Exam Tips:
 
-✅ Know the difference between Region, AZ, and Edge Location.
-✅ Understand why AWS separates workloads across AZs (fault tolerance).
-✅ Remember that Edge Locations serve cached content closer to users (low latency).
-✅ Recognize that AZs have independent infrastructure within a Region.
+- ✅ Know the difference between Region, AZ, and Edge Location.
+- ✅ Understand why AWS separates workloads across AZs (fault tolerance).
+- ✅ Remember that Edge Locations serve cached content closer to users (low latency).
+- ✅ Recognize that AZs have independent infrastructure within a Region.
 
 ## Topic 2
 
