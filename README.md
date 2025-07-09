@@ -86,8 +86,8 @@ You **must know these 6 pillars for the exam**, and understand examples of each.
 
 #### 1️⃣ **Operational Excellence**
 
-* Run and monitor systems effectively, continuously improve.
-* Key practices:
+Run and monitor systems effectively, continuously improve.
+Key practices:
 - Operations as code
 - Small, frequent changes
 - Use managed services
@@ -95,8 +95,8 @@ You **must know these 6 pillars for the exam**, and understand examples of each.
 
 #### 2️⃣ **Security**
 
-* Protect **data, systems, and assets** while delivering business value.
-* Key practices:
+Protect **data, systems, and assets** while delivering business value.
+Key practices:
 - Encryption (at rest & in transit)
 - Authentication & authorization controls
 - Apply **layered security** (defense in depth)
@@ -104,8 +104,8 @@ You **must know these 6 pillars for the exam**, and understand examples of each.
 
 #### 3️⃣ **Cost Optimization**
 
-* Avoid unnecessary costs while meeting business needs.
-* Key practices:
+Avoid unnecessary costs while meeting business needs.
+Key practices:
 - Adopt a **consumption model** (pay for what you use)
 - Use managed services where appropriate
 - Measure and optimize efficiency
@@ -113,8 +113,8 @@ You **must know these 6 pillars for the exam**, and understand examples of each.
 
 #### 4️⃣ **Reliability**
 
-* Ensure workloads perform as intended and recover quickly from failures.
-* Key practices:
+Ensure workloads perform as intended and recover quickly from failures.
+Key practices:
 - Automate recovery (e.g., Auto Scaling, DNS failover)
 - Test recovery procedures
 - Design for horizontal scaling
@@ -122,8 +122,8 @@ You **must know these 6 pillars for the exam**, and understand examples of each.
 
 #### 5️⃣ **Performance Efficiency**
 
-* Use IT resources efficiently to meet system requirements.
-* Key practices:
+Use IT resources efficiently to meet system requirements.
+Key practices:
 - Choose appropriate resources & instance types
 - Experiment & innovate often
 - Use serverless & global deployments
@@ -131,8 +131,8 @@ You **must know these 6 pillars for the exam**, and understand examples of each.
 
 #### 6️⃣ **Sustainability**
 
-* Minimize environmental impact of cloud workloads.
-* Key practices:
+Minimize environmental impact of cloud workloads.
+Key practices:
 - Right-size resources
 - Increase utilization & avoid over-provisioning
 - Scale on-demand instead of pre-allocating resources
